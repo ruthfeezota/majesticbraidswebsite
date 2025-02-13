@@ -1,5 +1,5 @@
 import React from "react";
-import logo from './assets/logo.png'
+import logo1 from './assets/logo1.png'
 import "../App.css"
 
 export const Navigation = (props) => {
@@ -20,7 +20,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="page-scroll" href="#page-top">
-            <img src={logo} alt="logo" className="logo"/>
+            <img src={logo1} alt="logo" className="logo"/>
           </a>{" "}
         </div>
 

@@ -1,7 +1,7 @@
 {
   "Header": {
-    "title": "Stunning Hair, On Your Terms.",
-    "paragraph": "We bring the salon experience to you.  We specialize in braids, twists, weaves/sewins, and dreadlocks, offering convenient and personalized service throughout Providence and surrounding areas."
+    "title": "Get a pro braider at your doorstep",
+    "paragraph": "Expert Braiders, Just a Doorbell Away"
   },
   "About": {
     "paragraph": "Most Vibrant Braid in Town",
@@ -20,81 +20,81 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/testimonials/02.jpg",
+      "name": "Box Braids",
+      "text": "Individual braids that are sectioned off in a box-like pattern. They can be any length or thickness and are a very popular protective style."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/testimonials/02.jpg",
+      "name": "Cornrows",
+      "text": "Braids that are close to the scalp and can be styled in various patterns. They are often used as a base for other styles like weaves or wigs."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/testimonials/02.jpg",
+      "name": "Senegalese Twists",
+      "text": "Two-strand twists that are made with synthetic braiding hair. They are a lightweight and stylish option."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/testimonials/02.jpg",
+      "name": "Micro Braids",
+      "text": "Very small braids that can be styled in a variety of ways. They are a time-consuming style but offer a lot of versatility."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/testimonials/02.jpg",
+      "name": "Faux Locs",
+      "text": "Braids that are wrapped to resemble dreadlocks. They are a protective style that gives the look of locs without the commitment."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/testimonials/02.jpg",
+      "name": "Weaves",
+      "text": "Hair extensions that are sewn or glued onto the natural hair. Want to add length, volume, or color?"
     }
   ],
   "Testimonials": [
@@ -161,27 +161,23 @@
   },
   "Features": [
     {
-      "img": "img/portfolio/linked.png",
+      "img": "img/portfolio/images.jpeg",
       "title": "Hair Braiding",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.",
       "link": "/"
     },    
     {
-      "img": "img/portfolio/linked.png",
+      "img": "img/portfolio/twista.jpg",
       "title": "Twists",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.",
       "link": "/"
     },
     {
-     "img": "img/portfolio/linked.png",
-      "title": "FAUX LOCS",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.",
+     "img": "img/portfolio/Fux.jpg",
+      "title": "Faux Locs",
       "link": "/"
     },
     {
-     "img": "img/portfolio/linked.png",
+     "img": "img/portfolio/sewIns.png",
       "title": "Weaves/Sew-Ins",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.",
       "link": "/"
     }
   ]

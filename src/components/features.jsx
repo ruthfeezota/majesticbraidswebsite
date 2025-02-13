@@ -5,17 +5,18 @@ export const Features = (props) => {
     <div id="features" className="text-center">
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
-          <h2>Our Most Popular Services</h2>
+          <h2>Our Most Popular <span className="featuretext ">Services</span></h2>
+    
         </div>
-        <div className="row">
+        <div className="row ">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
                   {" "}
-                  <img src={d.img} alt={d.title} />
+                  <img src={d.img} alt={d.title} className="featureimg"/>
                   <h3>{d.title}</h3>
                   <p>{d.text}</p>
-                  <a href={d.link} alt={d.title}> Book Now </a>
+                  <a href={d.link} alt={d.title} className="btn btn-custom">Book Now</a>
                 </div>
               ))
             : "Loading..."}
