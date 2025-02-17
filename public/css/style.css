@@ -177,6 +177,7 @@ hr {
   border-radius: 25px;
   transition: all 0.5s linear;
   border: 0;
+  margin-bottom: 10px;
 }
 .btn-custom:hover,
 .btn-custom:focus,
@@ -206,20 +207,33 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  display: table;
+  position: relative;
   width: 100%;
-  height: 400px;
-  padding: 0;
-  background: url(../img/LizStyle.mp4) center center no-repeat;
-  background-color: #000000;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  height: 800px;
+  overflow: hidden;
 }
+
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
 .intro .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
+
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -249,6 +263,24 @@ header .intro-text {
 
 .headerlocation {
   font-weight: bold;
+}
+
+
+.bottom-button {
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  left: 90%;
+  transform: translateX(-50%); /* Center the button horizontally */
+  /* Add other styling properties as desired */
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 50px;
 }
 /* Features Section */
 #features {
@@ -297,11 +329,13 @@ header .intro-text {
   margin-bottom: 6px;
   margin-left: 6px;
   list-style: none;
+  margin-top: 16px;
   padding: 0;
 }
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
+  margin-top: 16px;
   color: #5ca9fb;
   font-size: 11px;
   font-weight: 300;
@@ -348,11 +382,20 @@ header .intro-text {
 
 .serviceimg {
   width: 150px;
+  height: 150px;
     margin: auto;
     display: block;
     border-radius: 50%;
 
 }
+
+.servicesbooktext {
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+}
+
+
 #services i.fa {
   font-size: 42px;
   width: 120px;
@@ -427,42 +470,54 @@ header .intro-text {
 #testimonials {
   padding: 100px 0;
   background: #f6f6f6;
+  text-align: center;
 }
-#testimonials i {
-  color: #e6e6e6;
-  font-size: 32px;
-  margin-bottom: 20px;
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive equal columns */
+  gap: 20px; /* Space between items */
+  justify-content: center;
+  align-items: start;
 }
+
 .testimonial {
-  position: relative;
+  background: white;
   padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
+
 .testimonial-image {
-  float: left;
-  margin-right: 15px;
-}
-.testimonial-image,
-.testimonial-image img {
-  display: block;
-  width: 64px;
-  height: 64px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-}
-.testimonial-content {
-  position: relative;
   overflow: hidden;
+  margin-bottom: 10px;
 }
+
+.testimonial-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .testimonial-content p {
-  margin-bottom: 0;
   font-size: 14px;
   font-style: italic;
+  margin-bottom: 10px;
 }
+
 .testimonial-meta {
-  margin-top: 10px;
   font-size: 15px;
   font-weight: 600;
   color: #666;
 }
+
 /* Team Section */
 #team {
   padding: 100px 0;
