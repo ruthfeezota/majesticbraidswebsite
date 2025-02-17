@@ -16,7 +16,7 @@ export const Features = (props) => {
                   <img src={d.img} alt={d.title} className="featureimg"/>
                   <h3>{d.title}</h3>
                   <p>{d.text}</p>
-                  <a href={d.link} alt={d.title} className="btn btn-custom">Book Now</a>
+                  <a href={d.link} alt={d.title} className="btn btn-custom" target="_blank" rel="noopener noreferrer">Book Now</a>
                 </div>
               ))
             : "Loading..."}

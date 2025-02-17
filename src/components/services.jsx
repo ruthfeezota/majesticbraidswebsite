@@ -19,7 +19,7 @@ export const Services = (props) => {
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
-                    <a href="{d.link}" className="servicesbooktext">Book Now</a>
+                    <a href="{d.link}" className="servicesbooktext" target="_blank" rel="noopener noreferrer">Book Now</a>
                   </div>
                 </div>
               ))

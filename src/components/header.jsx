@@ -23,7 +23,7 @@ export const Header = (props) => {
                   {props.data ? props.data.paragraph : "Loading"}
                 </p>
                 <p className="headerlocation">
-                  Providence, Cranston, East Providence, Pawtucket, Warwick, and Woonsocket.
+                Currently servicing: Providence, Cranston, East Providence, Pawtucket, Warwick, and Woonsocket.
                 </p>
                 <a href="https://majestichand.booksy.com/c/" className="btn btn-custom btn-lg page-scroll" target="_blank" rel="noopener noreferrer">
                   Book Mobile Service Now
