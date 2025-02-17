@@ -25,14 +25,13 @@ export const Header = (props) => {
                 <p className="headerlocation">
                   Providence, Cranston, East Providence, Pawtucket, Warwick, and Woonsocket.
                 </p>
-                <a href="https://majestichand.booksy.com/c/" className="btn btn-custom btn-lg page-scroll" target="_blank" 
-  rel="noopener noreferrer">
+                <a href="https://majestichand.booksy.com/c/" className="btn btn-custom btn-lg page-scroll" target="_blank" rel="noopener noreferrer">
                   Book Mobile Service Now
                 </a>
               </div>
              
             </div>
-            <a href="https://majestichand.booksy.com/c/" className="bottom-button" target="_blank" rel="noopener noreferrer">Book Now</a>
+            <a href="https://majestichand.booksy.com/c/" className="bottom-button btn btn-custom " target="_blank" rel="noopener noreferrer">Book Now</a>
           </div>
         </div>
       </div>
