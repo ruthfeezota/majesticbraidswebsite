@@ -1,6 +1,6 @@
 import React from "react";
-import logo1 from './assets/logo1.png'
-import "../App.css"
+import logo1 from "./assets/logo1.png";
+import "../App.css";
 
 export const Navigation = (props) => {
   return (
@@ -20,7 +20,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="page-scroll" href="#page-top">
-            <img src={logo1} alt="logo" className="logo"/>
+            <img src={logo1} alt="Majestic Braids Logo" className="logo" />
           </a>{" "}
         </div>
 
@@ -29,7 +29,6 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            
             <li>
               <a href="#about" className="page-scroll">
                 About Us
@@ -50,19 +49,23 @@ export const Navigation = (props) => {
                 Testimonials
               </a>
             </li>
-            
+
             <li>
               <a href="#contact" className="page-scroll">
                 Contact Us
               </a>
             </li>
             <li>
-              <a href="https://majestichand.booksy.com/c/" className=" " target="_blank" rel="noopener noreferrer">
-              Book Now
+              <a
+                href="https://majestichand.booksy.com/c/"
+                className=" "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Book Now
               </a>
             </li>
           </ul>
-          
         </div>
       </div>
     </nav>

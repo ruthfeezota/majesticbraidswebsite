@@ -5,7 +5,7 @@ export const Header = (props) => {
     <header id="header">
       <div className="intro">
         {/* Video Background */}
-        <video autoPlay muted loop className="background-video">
+        <video autoPlay muted loop className="background-video" alt="Video of Majestic Braids's Hair Braider Braiding Client's Hair">
           <source src="../img/LizStyle.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
