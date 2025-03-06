@@ -57,7 +57,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a
-                href="https://majestichand.booksy.com/c/"
+                href="https://app.squareup.com/appointments/book/ssrk16cq70u9xm/L90W7ZYT50MKG/start"
                 className=" "
                 target="_blank"
                 rel="noopener noreferrer"
