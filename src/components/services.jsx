@@ -7,7 +7,7 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Services <span className="featuretext">Menu</span></h2>
           <p>
-            View our full list of services offered and book
+          Find Your Perfect Braids Style
           </p>
         </div>
         <div className="row">

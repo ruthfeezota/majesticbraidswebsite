@@ -14,7 +14,7 @@ export const About = (props) => {
             <div className="about-text">
               <h2>Most <span className="featuretext">Vibrant </span>Braids in Providence</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Why Choose Majestic Braids?</h3>
+              <h3>Why Choose Majestic Braids? The Best Mobile Braiding Salon in Providence</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>

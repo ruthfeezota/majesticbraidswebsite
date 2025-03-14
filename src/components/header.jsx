@@ -22,8 +22,8 @@ export const Header = (props) => {
                 <p>
                   {props.data ? props.data.paragraph : "Loading"}
                 </p>
-                <p className="headerlocation">
-                Currently servicing: Providence, Cranston, East Providence, Pawtucket, Warwick, and Woonsocket.
+                <p className="headerlocation hidden">
+                Looking for braiding salons near me? We specialize in all types of braids, from classic box braids to trendy lemonade braids.
                 </p>
                 <a href="https://app.squareup.com/appointments/book/ssrk16cq70u9xm/L90W7ZYT50MKG/start" className="btn btn-custom btn-lg page-scroll" target="_blank" rel="noopener noreferrer">
                   Book Mobile Service Now

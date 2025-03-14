@@ -42,7 +42,7 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In <span className="featuretext">Touch </span></h2>
+                <h2>Get In <span className="featuretext">Touch </span>: Contact Us for Your Braiding Needs</h2>
                 <p>
                   Please fill out the form below to send us an email and we will
                   get back to you as soon as possible.

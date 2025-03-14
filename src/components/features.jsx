@@ -5,7 +5,7 @@ export const Features = (props) => {
     <div id="features" className="text-center">
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
-          <h2>Our Most Popular <span className="featuretext ">Services</span></h2>
+          <h2>Our Most Popular <span className="featuretext ">Services</span> <span className="hidden">Expert Braiding for All Hair Types </span></h2>
     
         </div>
         <div className="row ">
@@ -16,7 +16,7 @@ export const Features = (props) => {
                   <img src={d.img} alt={d.title} className="featureimg"/>
                   <h3>{d.title}</h3>
                   <p>{d.text}</p>
-                  <a href={d.link} alt={d.title} className="btn btn-custom" target="_blank" rel="noopener noreferrer">Book Now</a>
+                  <a href={d.link} alt={d.alt} className="btn btn-custom" target="_blank" rel="noopener noreferrer">Book Now</a>
                 </div>
               ))
             : "Loading..."}

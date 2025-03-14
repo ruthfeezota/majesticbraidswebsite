@@ -7,6 +7,7 @@ export const Gallery = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Gallery</h2>
+          <p className="">See Our Stunning Hairstyles, From Your Local African Hair Braiding Expert.</p>
         </div>
         <div className="row">
           <div className="portfolio-items">
@@ -20,6 +21,7 @@ export const Gallery = (props) => {
                       title={d.title}
                       largeImage={d.largeImage}
                       smallImage={d.smallImage}
+                      alt={d.alt}
                     />
                   </div>
                 ))
