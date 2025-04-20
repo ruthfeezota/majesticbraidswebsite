@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { X } from 'lucide-react';
-import { db } from '../firebase'; // make sure path is correct
+import { db } from '../firebase';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 import SaleImage from '../components/assets/April Sale.png';
 
@@ -8,14 +8,51 @@ function SaleModal() {
   const [showModal, setShowModal] = useState(false);
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [scrollTime, setScrollTime] = useState(0);
+  const [hasTriggered, setHasTriggered] = useState(false);
+
+  useEffect(() => {
+    let scrollTimer;
+    let interval;
+
+    const startTracking = () => {
+      if (!interval) {
+        interval = setInterval(() => {
+          setScrollTime((prev) => prev + 1);
+        }, 1000);
+      }
+    };
+
+    const stopTracking = () => {
+      clearInterval(interval);
+      interval = null;
+    };
+
+    const handleScroll = () => {
+      startTracking();
+      clearTimeout(scrollTimer);
+      scrollTimer = setTimeout(() => {
+        stopTracking();
+      }, 1000);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      clearInterval(interval);
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   useEffect(() => {
     const hasVisited = localStorage.getItem('hasVisited');
-    if (!hasVisited) {
+
+    if (scrollTime >= 15 && !hasTriggered && !hasVisited) {
       setShowModal(true);
+      setHasTriggered(true);
       localStorage.setItem('hasVisited', 'true');
     }
-  }, []);
+  }, [scrollTime, hasTriggered]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -87,8 +124,6 @@ function SaleModal() {
             ) : (
               <p className="text-green-600 font-medium">Success! Check your inbox for your discount code.</p>
             )}
-
- 
           </div>
         </div>
       </div>
