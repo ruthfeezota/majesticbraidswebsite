@@ -28,15 +28,15 @@ export const Header = (props) => {
           </video>
 
           {/* Overlay and Content */}
-          <div className="absolute inset-0 bg-black opacity-50 z-10 h-full"></div>
+          <div className="absolute inset-0 bg-black opacity-30 z-10 h-full"></div>
 
           <div className="relative z-20 py-20 md:py-32 lg:py-40 xl:py-48 px-6 md:px-10 lg:px-20 xl:px-32 text-center text-white">
-            <div className="max-w-4xl mx-auto">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4">
+            <div className="max-w-5xl mx-auto">
+              <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold mb-4 italic">
                 {props.data ? props.data.title : "Loading"}
                 <span className="ml-2 animate-ping inline-block rounded-full h-2 w-2 bg-white"></span>
               </h1>
-              <p className="text-1xl md:text-3xl mb-8">
+              <p className="text-1xl md:text-3xl mb-8 font-semibold">
                 {props.data ? props.data.paragraph : "Loading"}
               </p>
 

@@ -74,7 +74,7 @@ export const Contact = (props) => {
           <div className="lg:w-2/3">
             <div className="mb-8">
               <h2 className="text-6xl font-semibold text-gray-800 mb-4">
-                Get In <span className="text-teal-500 italic">Touch</span>: Contact Us
+                Get InTouch: Contact Us
                 for Your Braiding Needs
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
@@ -157,7 +157,7 @@ export const Contact = (props) => {
               </div>
             </div>
             <div className="mt-8 lg:mt-12">
-              <h3 className="text-xl font-semibold text-gray-700 mb-4">
+              <h3 className="text-xl font-semibold text-gray-700 mb-1">
                 Follow Us
               </h3>
               <div className="flex space-x-4">
@@ -167,7 +167,7 @@ export const Contact = (props) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaInstagram className="h-6 w-6" />
+                  <FaInstagram className="h-10 w-10" />
                 </a>
                 <a
                   href={props.data ? props.data.pinterest : "/"}
@@ -175,7 +175,7 @@ export const Contact = (props) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaPinterest className="h-6 w-6" />
+                  
                 </a>
                 <a
                   href={props.data ? props.data.facebook : "/"}
@@ -183,7 +183,7 @@ export const Contact = (props) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaFacebook className="h-6 w-6" />
+                  <FaFacebook className="h-10 w-10" />
                 </a>
               </div>
             </div>

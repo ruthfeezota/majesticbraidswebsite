@@ -8,8 +8,8 @@ export const Testimonials = (props) => {
           <h2 className="text-7xl font-semibold text-gray-800">
             What My Clients <span className="text-teal-500 italic">Say</span>
           </h2>
-          <p className="text-lg text-gray-600 leading-relaxed">
-            Since launching in 2025, we’ve styled many clients, delivering looks
+          <p className="text-[14px] text-gray-600 leading-relaxed mt-2">
+            Since launching in 2024, we’ve styled many clients, delivering looks
             they love and experiences they rave about!
           </p>
         </div>
