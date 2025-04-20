@@ -9,8 +9,10 @@ import { Testimonials } from "../components/testimonials";
 import { Contact } from "../components/contact";
 import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
-import "../App.css";
-import '../index.css'
+import Navbar from "../components/Navbar";
+import SaleModal from "../components/SaleModal";
+
+
 
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -37,7 +39,8 @@ function Home() {
             />
 
     <div>
-         <Navigation />
+         {/* <Navigation /> */}
+         <Navbar/>
          <Header data={landingPageData.Header} />
          <Features data={landingPageData.Features} />
          <Gallery data={landingPageData.Gallery} />
@@ -45,7 +48,9 @@ function Home() {
          <Services data={landingPageData.Services} />
          <Testimonials data={landingPageData.Testimonials} />
          <Contact data={landingPageData.Contact} />
+         <SaleModal/>
        </div>
+
        </main>
   )
 }

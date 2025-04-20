@@ -1,6 +1,9 @@
+// firebaseConfig.js
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import { getFirestore } from "firebase/firestore";
+// import { getAnalytics } from "firebase/analytics"; // You can uncomment this if you need analytics
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -18,4 +21,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+const db = getFirestore(app); // Initialize Firestore and export it
+// const analytics = getAnalytics(app); // Uncomment if you need analytics
+
+export { app, db }; // Export both app and db
