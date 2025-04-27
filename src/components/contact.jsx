@@ -88,7 +88,7 @@ export const Contact = (props) => {
                   type="text"
                   id="name"
                   name="name"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-teal-500 focus:border-teal-500"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-teal-500 focus:border-teal-500 text-black"
                   placeholder="Name"
                   required
                   onChange={handleChange}
@@ -99,7 +99,7 @@ export const Contact = (props) => {
                   type="email"
                   id="email"
                   name="email"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-teal-500 focus:border-teal-500"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-teal-500 focus:border-teal-500 text-black"
                   placeholder="Email"
                   required
                   onChange={handleChange}

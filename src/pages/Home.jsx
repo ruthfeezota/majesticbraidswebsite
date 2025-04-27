@@ -10,7 +10,7 @@ import { Contact } from "../components/contact";
 import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
 import Navbar from "../components/Navbar";
-import SaleModal from "../components/SaleModal";
+// import SaleModal from "../components/SaleModal";
 
 
 
@@ -48,7 +48,7 @@ function Home() {
          <Services data={landingPageData.Services} />
          <Testimonials data={landingPageData.Testimonials} />
          <Contact data={landingPageData.Contact} />
-         <SaleModal/>
+         {/* <SaleModal/> */}
        </div>
 
        </main>
