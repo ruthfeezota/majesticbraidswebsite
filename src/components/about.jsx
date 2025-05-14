@@ -19,7 +19,7 @@ export const About = (props) => {
           {/* Text Column */}
           <div className="col-span-1">
             <h2 className="font-semibold text-gray-800 text-5xl md:text-7xl mb-6">
-              Most <span className="text-teal-600 italic">Vibrant </span>
+              Most <span className="text-[#73C2F4] italic">Vibrant </span>
               Braids in Providence
             </h2>
 
@@ -28,7 +28,7 @@ export const About = (props) => {
             </p>
 
             <h3 className="text-[22px] font-bold text-black mb-3 leading-normal">
-              Why Choose Majestic Braids?  <span className="text-teal-600 italic">The Best Mobile Braiding Salon in
+              Why Choose Majestic Braids?  <span className="text-[#73C2F4] italic">The Best Mobile Braiding Salon in
               Providence </span>
             </h3>
 

@@ -2,11 +2,11 @@ import React from "react";
 
 export const Services = (props) => {
   return (
-    <div id="services" className="py-20 bg-neutral-50 text-center">
-      <div className="mx-auto px-8">
+    <div id="services" className="py-20 bg-neutral-50 text-center ">
+      <div className="mx-auto px-8 bg-[#2C1755]">
         <div className="max-w-2xl mx-auto mb-16">
           <h2 className="text-7xl font-semibold text-gray-800">
-            Our Services <span className="text-teal-600 italic">Menu</span>
+            Our Services <span className="text-[#73C2F4] italic">Menu</span>
           </h2>
           <p className="text-2xl text-gray-600 leading-relaxed">
             Find Your Perfect Braids Style
@@ -35,7 +35,7 @@ export const Services = (props) => {
                     </p>
                     <a
                       href={d.link}
-                      className="inline-block bg-teal-600 hover:text-white hover:bg-sky-700 text-white font-semibold py-3 px-8 rounded-full text-2xl transition duration-300"
+                      className="inline-block bg-[#73C2F4] hover:text-white hover:bg-sky-700 text-white font-semibold py-3 px-8 rounded-full text-2xl transition duration-300"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -50,3 +50,5 @@ export const Services = (props) => {
     </div>
   );
 };
+
+

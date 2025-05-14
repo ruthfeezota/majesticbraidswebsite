@@ -6,7 +6,7 @@ export const Header = (props) => {
       {/* Floating Book Now Button */}
       <a
   href="https://app.squareup.com/appointments/book/ssrk16cq70u9xm/L90W7ZYT50MKG/start"
-  className="fixed bottom-6 right-6 bg-teal-600 text-white hover:text-white  hover:bg-sky-600 font-semibold py-4 px-8 rounded-full shadow-lg z-50 transition duration-300"
+  className="fixed bottom-6 right-6 bg-[#73C2F4] text-white hover:text-white  hover:bg-sky-600 font-semibold py-4 px-8 rounded-full shadow-lg z-50 transition duration-300"
   target="_blank"
   rel="noopener noreferrer"
 >
@@ -49,7 +49,7 @@ export const Header = (props) => {
             <div className="mt-10">
               <a
                 href="https://app.squareup.com/appointments/book/ssrk16cq70u9xm/L90W7ZYT50MKG/start"
-                className="inline-block bg-teal-600 text-white hover:bg-sky-600 hover:text-white font-semibold py-5 px-10 rounded-full text-lg transition duration-300 uppercase"
+                className="inline-block bg-[#73C2F4] text-white hover:bg-sky-600 hover:text-white font-semibold py-5 px-10 rounded-full text-lg transition duration-300 uppercase"
                 target="_blank"
                 rel="noopener noreferrer"
               >

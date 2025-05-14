@@ -58,10 +58,10 @@ export const Contact = (props) => {
         <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-50">
           <div className="bg-white rounded-md shadow-lg p-8 text-center">
             <h2 className="text-xl font-semibold text-green-600 mb-4">Success!</h2>
-            <p className="text-gray-700 mb-4">Your message has been sent successfully.</p>
+            <p className="text-white mb-4">Your message has been sent successfully.</p>
             <button
               onClick={() => setSubmissionSuccess(false)}
-              className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded-md transition duration-300"
+              className="inline-block bg-[#73C2F4] hover:bg-[#73C2F4] text-white font-semibold py-2 px-4 rounded-md transition duration-300"
             >
               Close
             </button>
@@ -73,11 +73,11 @@ export const Contact = (props) => {
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-24">
           <div className="lg:w-2/3">
             <div className="mb-8">
-              <h2 className="text-6xl font-semibold text-gray-800 mb-4">
+              <h2 className="text-6xl font-semibold text-white mb-4">
                 Get InTouch: Contact Us
                 for Your Braiding Needs
               </h2>
-              <p className="text-lg text-gray-600 leading-relaxed">
+              <p className="text-lg text-white leading-relaxed">
                 Please fill out the form below to send us an email, and we will
                 get back to you as soon as possible.
               </p>
@@ -88,7 +88,7 @@ export const Contact = (props) => {
                   type="text"
                   id="name"
                   name="name"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-teal-500 focus:border-teal-500 text-black"
+                  className="w-full px-4 py-3 border border-white rounded-md focus:ring-[#73C2F4] focus:border-[#73C2F4] text-black"
                   placeholder="Name"
                   required
                   onChange={handleChange}
@@ -99,7 +99,7 @@ export const Contact = (props) => {
                   type="email"
                   id="email"
                   name="email"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-teal-500 focus:border-teal-500 text-black"
+                  className="w-full px-4 py-3 border border-white rounded-md focus:ring-[#73C2F4] focus:border-[#73C2F4] text-black"
                   placeholder="Email"
                   required
                   onChange={handleChange}
@@ -109,7 +109,7 @@ export const Contact = (props) => {
                 <textarea
                   name="message"
                   id="message"
-                  className="w-full px-4 py-3 border border-gray-300 text-black rounded-md focus:ring-teal-500 focus:border-teal-500"
+                  className="w-full px-4 py-3 border border-white text-black rounded-md focus:ring-[#73C2F4] focus:border-[#73C2F4]"
                   rows="4"
                   placeholder="Message"
                   required
@@ -119,7 +119,7 @@ export const Contact = (props) => {
               <div>
                 <button
                   type="submit"
-                  className={`inline-block bg-teal-500 hover:bg-teal-600 text-white font-semibold py-3 px-8 rounded-full transition duration-300 ${
+                  className={`inline-block bg-[#73C2F4] hover:bg-[#73C2F4] text-white font-semibold py-3 px-8 rounded-full transition duration-300 ${
                     isSubmitting ? "opacity-50 cursor-not-allowed" : ""
                   }`}
                   disabled={isSubmitting}
@@ -132,38 +132,38 @@ export const Contact = (props) => {
           <div className="lg:w-1/3">
             {/* Contact Info and Follow Us sections remain the same */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-gray-700 mb-4">
+              <h3 className="text-xl font-semibold text-white mb-4">
                 Contact Info
               </h3>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
-                  <FaMapMarkerAlt className="text-gray-500" />
-                  <p className="text-gray-600">
+                  <FaMapMarkerAlt className="text-white" />
+                  <p className="text-white">
                     {props.data ? props.data.address : "Loading Address..."}
                   </p>
                 </div>
                 <div className="flex items-center gap-3">
-                  <FaPhone className="text-gray-500" />
-                  <p className="text-gray-600">
+                  <FaPhone className="text-white" />
+                  <p className="text-white">
                     {props.data ? props.data.phone : "Loading Phone..."}
                   </p>
                 </div>
                 <div className="flex items-center gap-3">
-                  <FaEnvelope className="text-gray-500" />
-                  <p className="text-gray-600">
+                  <FaEnvelope className="text-white" />
+                  <p className="text-white">
                     {props.data ? props.data.email : "Loading Email..."}
                   </p>
                 </div>
               </div>
             </div>
             <div className="mt-8 lg:mt-12">
-              <h3 className="text-xl font-semibold text-gray-700 mb-1">
+              <h3 className="text-xl font-semibold text-white mb-1">
                 Follow Us
               </h3>
               <div className="flex space-x-4">
                 <a
                   href={props.data ? props.data.instagram : "/"}
-                  className="text-gray-500 hover:text-teal-500 transition duration-300"
+                  className="text-white hover:text-[#73C2F4] transition duration-300"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -171,7 +171,7 @@ export const Contact = (props) => {
                 </a>
                 <a
                   href={props.data ? props.data.pinterest : "/"}
-                  className="text-gray-500 hover:text-teal-500 transition duration-300"
+                  className="text-white hover:text-[#73C2F4] transition duration-300"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -179,7 +179,7 @@ export const Contact = (props) => {
                 </a>
                 <a
                   href={props.data ? props.data.facebook : "/"}
-                  className="text-gray-500 hover:text-teal-500 transition duration-300"
+                  className="text-white hover:text-[#73C2F4] transition duration-300"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -190,7 +190,7 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
-      <div id="" className="py-6 text-center text-gray-600 text-sm">
+      <div id="" className="py-6 text-center text-white text-sm">
         <div className="container mx-auto px-6">
           <p>&copy; 2025 Majestic Braids</p>
         </div>

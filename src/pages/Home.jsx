@@ -10,6 +10,9 @@ import { Contact } from "../components/contact";
 import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
 import Navbar from "../components/Navbar";
+import Prices from "../components/prices";
+import SaleBanner from "../components/SaleBanner";
+
 // import SaleModal from "../components/SaleModal";
 
 
@@ -40,11 +43,13 @@ function Home() {
 
     <div>
          {/* <Navigation /> */}
+         <SaleBanner/>
          <Navbar/>
          <Header data={landingPageData.Header} />
          <Features data={landingPageData.Features} />
          <Gallery data={landingPageData.Gallery} />
          <About data={landingPageData.About} />
+         <Prices data={landingPageData.Prices} />
          <Services data={landingPageData.Services} />
          <Testimonials data={landingPageData.Testimonials} />
          <Contact data={landingPageData.Contact} />

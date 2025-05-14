@@ -95,7 +95,7 @@ function SaleModal() {
 
           {/* Content */}
           <div className="px-6 py-8 sm:px-12 sm:py-10">
-            <h3 className="mb-2 text-2xl font-extrabold md:text-5xl text-teal-600 text-center">
+            <h3 className="mb-2 text-2xl font-extrabold md:text-5xl text-[#73C2F4] text-center">
               15% Off All Services For All New Customers
             </h3>
             <p className="mb-6 text-sm text-gray-500 sm:text-base lg:mb-8">
@@ -118,7 +118,7 @@ function SaleModal() {
                 <input
                   type="submit"
                   value="Get Sale Now"
-                  className="w-auto cursor-pointer rounded-md bg-teal-600 px-6 py-2 font-semibold text-white"
+                  className="w-auto cursor-pointer rounded-md bg-[#73C2F4] px-6 py-2 font-semibold text-white"
                 />
               </form>
             ) : (

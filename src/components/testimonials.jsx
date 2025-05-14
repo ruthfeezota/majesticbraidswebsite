@@ -6,7 +6,7 @@ export const Testimonials = (props) => {
       <div className="mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h2 className="text-7xl font-semibold text-gray-800">
-            What My Clients <span className="text-teal-500 italic">Say</span>
+            What My Clients <span className="text-[#73C2F4] italic">Say</span>
           </h2>
           <p className="text-[14px] text-gray-600 leading-relaxed mt-2">
             Since launching in 2024, we’ve styled many clients, delivering looks
@@ -29,7 +29,7 @@ export const Testimonials = (props) => {
                   </div>
                   <div className="testimonial-content">
                     <p className="text-gray-700 italic mb-3">"{d.text}"</p>
-                    <div className="text-teal-600 font-semibold">
+                    <div className="text-[#73C2F4] font-semibold">
                       - {d.name}
                     </div>
                   </div>

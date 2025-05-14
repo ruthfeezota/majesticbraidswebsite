@@ -6,7 +6,7 @@ export const Features = (props) => {
       <div className="mx-auto px-6">
         <div className="max-w-4xl mx-auto mb-22 mt-10">
           <h2 className="text-6xl font-semibold text-gray-800">
-            Our Most Popular <span className="text-teal-500 italic">Services</span>{" "}
+            Our Most Popular <span className="text-[#73C2F4] italic">Services</span>{" "}
             <span className="hidden">Expert Braiding for All Hair Types </span>
           </h2>
         </div>
@@ -23,7 +23,7 @@ export const Features = (props) => {
                   <a
                     href={d.link}
                     alt={d.alt}
-                    className="inline-block bg-teal-500 hover:bg-sky-600 text-white font-semibold py-4 px-8 rounded-full text-xl transition duration-300 hover:text-white"
+                    className="inline-block bg-[#73C2F4] hover:bg-sky-600 text-white font-semibold py-4 px-8 rounded-full text-xl transition duration-300 hover:text-white"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

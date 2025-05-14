@@ -368,7 +368,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #40E0D0 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #2C1755 0%, #2C1755 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -547,7 +547,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #40E0D0 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #2C1755 0%, #2C1755 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
