@@ -19,7 +19,7 @@ export const Services = (props) => {
                   key={`${d.name}-${i}`}
                   className="flex flex-col items-center space-y-6" // Center content and use flex-col
                 >
-                  <div className="relative w-72 h-72 rounded-full overflow-hidden shadow-lg">
+                  <div className="relative max-w-60 h-72 rounded-full overflow-hidden shadow-lg">
                     <img
                       src={d.img}
                       alt={d.title}
@@ -27,10 +27,10 @@ export const Services = (props) => {
                     />
                   </div>
                   <div className="text-center"> {/* Center text content */}
-                    <h3 className="text-3xl font-semibold text-gray-700 mb-3">
+                    <h3 className="text-3xl font-semibold text-white mb-3">
                       {d.name}
                     </h3>
-                    <p className="text-2xl font-medium text-gray-600 leading-relaxed mb-5">
+                    <p className="text-2xl font-medium text-white leading-relaxed mb-5 max-w-[300px]">
                       {d.text}
                     </p>
                     <a
