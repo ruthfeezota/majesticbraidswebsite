@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="font-inter mx-auto w-full max-w-screen-2xl relative">
         <div className="flex flex-wrap items-center justify-between px-6 py-6 md:px-10 xl:px-20">
           {/* Logo on the left */}
-          <a href="#page-top" className="flex-shrink-0">
+          <a href="/" className="flex-shrink-0">
             <img src={logo1} alt="Majestic Braids Logo" className="h-32" />
           </a>
           {/* Nav links and CTA */}

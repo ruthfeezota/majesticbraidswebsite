@@ -6,6 +6,24 @@
     <loc>https://www.majesticbraids.com/</loc>
     <priority>1.0</priority>
     <changefreq>always</changefreq>
-    <lastmod>2024-06-04</lastmod>
+    <lastmod>2025-05-02</lastmod>
+  </url>
+   <url>
+    <loc>https://www.majesticbraids.com/providence</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2025-05-02</lastmod>
+  </url>
+   <url>
+    <loc>https://www.majesticbraids.com/cranston</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2025-05-02</lastmod>
+  </url>
+   <url>
+    <loc>https://www.majesticbraids.com/pawtucket</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2025-05-02</lastmod>
   </url>
 </urlset>
