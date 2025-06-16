@@ -26,4 +26,52 @@
     <changefreq>weekly</changefreq>
     <lastmod>2025-05-02</lastmod>
   </url>
+   <url>
+    <loc>https://www.majesticbraids.com/newhaven</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+   <url>
+    <loc>https://www.majesticbraids.com/pawcatuck</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+   <url>
+    <loc>https://www.majesticbraids.com/boston</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+   <url>
+    <loc>https://www.majesticbraids.com/warwick</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+   <url>
+    <loc>https://www.majesticbraids.com/newport</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+   <url>
+    <loc>https://www.majesticbraids.com/hartford</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+   <url>
+    <loc>https://www.majesticbraids.com/springfield</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+   <url>
+    <loc>https://www.majesticbraids.com/worcester</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2025-06-01</lastmod>
+  </url>
 </urlset>
