@@ -12,6 +12,7 @@ import SmoothScroll from "smooth-scroll";
 import Navbar from "../components/Navbar";
 import Prices from "../components/prices";
 import SaleBanner from "../components/SaleBanner";
+import FlodeskEmbed from "../components/FlodeskEmbed";
 
 // import SaleModal from "../components/SaleModal";
 
@@ -54,6 +55,7 @@ function Home() {
          <Testimonials data={landingPageData.Testimonials} />
          <Contact data={landingPageData.Contact} />
          {/* <SaleModal/> */}
+         <FlodeskEmbed/>
        </div>
 
        </main>

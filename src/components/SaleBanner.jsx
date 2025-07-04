@@ -6,7 +6,7 @@ function SaleBanner() {
 <section className="relative h-16">
   <div className="absolute top-0 mx-auto flex w-full items-center justify-center  bg-[#2C1755] py-4">
     <p className="md:mx-auto text-center mr-2 text-[#E4CBAA] font-extrabold">
-    First-Time Client Special: 10% Off ALL Services - Offer Ends June 31st, 2025
+    Men's Regular 2-4 Cornrows Just $35
 
     </p>
 
