@@ -35,7 +35,7 @@ const FlodeskEmbed = () => {
         if (window.fd) {
           window.fd("form", { formId: "6867396c96033be91b04a8b1" });
         }
-      }, 1000);
+      }, 2000);
     };
 
     loadFlodeskScripts();
