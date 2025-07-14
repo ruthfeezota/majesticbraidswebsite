@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Navigation } from "../components/navigation";
 import { Header } from "../components/header";
 import { Features } from "../components/features";
 import { About } from "../components/about";
@@ -10,9 +9,9 @@ import { Contact } from "../components/contact";
 import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
 import Navbar from "../components/Navbar";
-import Prices from "../components/prices";
 import SaleBanner from "../components/SaleBanner";
 import FlodeskEmbed from "../components/FlodeskEmbed";
+import GoogleReviews from "../components/GoogleReviews";
 
 // import SaleModal from "../components/SaleModal";
 
@@ -56,7 +55,10 @@ function Home() {
          <Contact data={landingPageData.Contact} />
          {/* <SaleModal/> */}
          <FlodeskEmbed/>
+     
+
        </div>
+   
 
        </main>
   )
