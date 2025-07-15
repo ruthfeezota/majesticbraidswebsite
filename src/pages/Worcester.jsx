@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { Contact } from '../components/contact';
 import Smallergallery from '../components/Smallergallery';
+import GoogleReviews from '../components/GoogleReviews';
 
 export const Worcester = (props) => {
   return (
@@ -12,7 +13,7 @@ export const Worcester = (props) => {
         or managed using a library like react-helmet-async for dynamic content in React applications.
         They are included here as per your original structure, but consider moving them for best practice.
       */}
-      <title>Hair Braiding Worcester MA | Mobile Braiding Salon Worcester | Majestic Braids MA</title>
+      <title>Hair Braiding in Worcester MA | Majestic Braids: Mobile Hair Braiding Worcester | Majestic Braids MA</title>
       <meta
         name="description"
         content="Majestic Braids MA: Your premier mobile hair braiding salon in Worcester, MA. Specializing in box braids, knotless braids, Senegalese twists, and more. Expert African hair braiding services brought directly to you in Worcester. Book your appointment today for top-rated braids in Worcester!"
@@ -93,6 +94,8 @@ export const Worcester = (props) => {
 
       {/* Smaller gallery section to showcase work */}
       <Smallergallery />
+
+      <GoogleReviews/>
 
       {/* Contact section for inquiries and booking */}
       <Contact />

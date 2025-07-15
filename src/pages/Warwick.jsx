@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { Contact } from '../components/contact';
 import Smallergallery from '../components/Smallergallery';
+import ReviewSlider from '../components/ReviewSlider';
 
 export const Warwick = (props) => {
   return (
@@ -12,7 +13,7 @@ export const Warwick = (props) => {
         or managed using a library like react-helmet-async for dynamic content in React applications.
         They are included here as per your original structure, but consider moving them for best practice.
       */}
-      <title>Hair Braiding Warwick RI | Mobile Braiding Salon Warwick | Majestic Braids RI</title>
+      <title>Hair Braiding in Warwick RI | Majestic Braids: Mobile Hair Braiding Warwick | Majestic Braids RI</title>
       <meta
         name="description"
         content="Majestic Braids RI: Your premier mobile hair braiding salon in Warwick, RI. Specializing in box braids, knotless braids, Senegalese twists, and more. Expert African hair braiding services brought directly to you in Warwick. Book your appointment today for top-rated braids in Warwick!"

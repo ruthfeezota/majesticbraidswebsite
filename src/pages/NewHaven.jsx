@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { Contact } from '../components/contact';
 import Smallergallery from '../components/Smallergallery';
+import GoogleReviews from '../components/GoogleReviews';
 
 export const NewHaven = (props) => {
   return (
@@ -12,7 +13,7 @@ export const NewHaven = (props) => {
         or managed using a library like react-helmet-async for dynamic content in React applications.
         They are included here as per your original structure, but consider moving them for best practice.
       */}
-      <title>Hair Braiding New Haven CT | Mobile Braiding Salon New Haven | Majestic Braids CT</title>
+      <title>Hair Braiding in New Haven CT | Majestic Braids: Mobile Hair Braiding New Haven | Majestic Braids CT</title>
       <meta
         name="description"
         content="Majestic Braids CT: Your premier mobile hair braiding salon in New Haven, CT. Specializing in box braids, knotless braids, Senegalese twists, and more. Expert African hair braiding services brought directly to you in New Haven. Book your appointment today for top-rated braids in New Haven!"
@@ -93,6 +94,7 @@ export const NewHaven = (props) => {
 
       {/* Smaller gallery section to showcase work */}
       <Smallergallery />
+     
 
       {/* Contact section for inquiries and booking */}
       <Contact />

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { Contact } from '../components/contact';
 import Smallergallery from '../components/Smallergallery';
+import GoogleReviews from '../components/GoogleReviews';
 
 export const Providence = (props) => {
   return (
@@ -12,7 +13,7 @@ export const Providence = (props) => {
         or managed using a library like react-helmet-async for dynamic content in React applications.
         They are included here as per your original structure, but consider moving them for best practice.
       */}
-      <title>Hair Braiding Providence RI | Mobile Braiding Salon Providence | Majestic Braids RI</title>
+      <title>Hair Braiding in Providence RI | Majestic Braids: Mobile Hair Braiding Providence | Majestic Braids RI</title>
       <meta
         name="description"
         content="Majestic Braids RI: Your premier mobile hair braiding salon in Providence, RI. Specializing in box braids, knotless braids, Senegalese twists, and more. Expert African hair braiding services brought directly to you in Providence. Book your appointment today for top-rated braids in Providence!"
@@ -93,6 +94,7 @@ export const Providence = (props) => {
 
       {/* Smaller gallery section to showcase work */}
       <Smallergallery />
+
 
       {/* Contact section for inquiries and booking */}
       <Contact />

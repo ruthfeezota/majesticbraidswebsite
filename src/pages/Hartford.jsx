@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { Contact } from '../components/contact';
 import Smallergallery from '../components/Smallergallery';
+import GoogleReviews from '../components/GoogleReviews';
 
 export const Hartford = (props) => {
   return (
@@ -12,7 +13,7 @@ export const Hartford = (props) => {
         or managed using a library like react-helmet-async for dynamic content in React applications.
         They are included here as per your original structure, but consider moving them for best practice.
       */}
-      <title>Hair Braiding Hartford CT | Mobile Braiding Salon Hartford | Majestic Braids CT</title>
+      <title>Hair Braiding in Hartford CT | Majestic Braids: Mobile Hair Braiding Hartford | Majestic Braids CT</title>
       <meta
         name="description"
         content="Majestic Braids CT: Your premier mobile hair braiding salon in Hartford, CT. Specializing in box braids, knotless braids, Senegalese twists, and more. Expert African hair braiding services brought directly to you in Hartford. Book your appointment today for top-rated braids in Hartford!"

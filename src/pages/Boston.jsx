@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { Contact } from '../components/contact';
 import Smallergallery from '../components/Smallergallery';
+import GoogleReviews from '../components/GoogleReviews';
 
 export const Boston = (props) => {
   return (
@@ -12,7 +13,7 @@ export const Boston = (props) => {
         or managed using a library like react-helmet-async for dynamic content in React applications.
         They are included here as per your original structure, but consider moving them for best practice.
       */}
-      <title>Hair Braiding Boston MA | Mobile Braiding Salon Boston | Majestic Braids MA</title>
+      <title>Hair Braiding in Boston MA | Majestic Braids: Mobile Hair Braiding Boston | Majestic Braids MA</title>
       <meta
         name="description"
         content="Majestic Braids MA: Your premier mobile hair braiding salon in Boston, MA. Specializing in box braids, knotless braids, Senegalese twists, and more. Expert African hair braiding services brought directly to you in Boston. Book your appointment today for top-rated braids in Boston!"

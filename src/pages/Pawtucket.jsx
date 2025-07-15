@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { Contact } from '../components/contact';
 import Smallergallery from '../components/Smallergallery';
+import GoogleReviews from '../components/GoogleReviews';
 
 
 export const Pawtucket = (props) => {
@@ -13,7 +14,7 @@ export const Pawtucket = (props) => {
         or managed using a library like react-helmet-async for dynamic content in React applications.
         They are included here as per your original structure, but consider moving them for best practice.
       */}
-      <title>Hair Braiding Pawtucket RI | Mobile Braiding Salon Pawtucket | Majestic Braids RI</title>
+      <title>Hair Braiding in Pawtucket RI | Majestic Braids: Mobile Hair Braiding Pawtucket | Majestic Braids RI</title>
       <meta
         name="description"
         content="Majestic Braids RI: Your premier mobile hair braiding salon in Pawtucket, RI. Specializing in box braids, knotless braids, Senegalese twists, and more. Expert African hair braiding services brought directly to you in Pawtucket. Book your appointment today for top-rated braids in Pawtucket!"
@@ -94,6 +95,8 @@ export const Pawtucket = (props) => {
 
       {/* Smaller gallery section to showcase work */}
       <Smallergallery />
+
+   
 
       {/* Contact section for inquiries and booking */}
       <Contact />

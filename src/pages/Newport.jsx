@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { Contact } from '../components/contact';
 import Smallergallery from '../components/Smallergallery';
+import GoogleReviews from '../components/GoogleReviews';
 
 export const Newport = (props) => {
   return (
@@ -12,7 +13,7 @@ export const Newport = (props) => {
         or managed using a library like react-helmet-async for dynamic content in React applications.
         They are included here as per your original structure, but consider moving them for best practice.
       */}
-      <title>Hair Braiding Newport RI | Mobile Braiding Salon Newport | Majestic Braids RI</title>
+      <title>Hair Braiding in Newport RI | Majestic Braids: Mobile Hair Braiding Newport | Majestic Braids RI</title>
       <meta
         name="description"
         content="Majestic Braids RI: Your premier mobile hair braiding salon in Newport, RI. Specializing in box braids, knotless braids, Senegalese twists, and more. Expert African hair braiding services brought directly to you in Newport. Book your appointment today for top-rated braids in Newport!"
@@ -93,6 +94,7 @@ export const Newport = (props) => {
 
       {/* Smaller gallery section to showcase work */}
       <Smallergallery />
+    
 
       {/* Contact section for inquiries and booking */}
       <Contact />

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { Contact } from '../components/contact';
 import Smallergallery from '../components/Smallergallery';
+import GoogleReviews from '../components/GoogleReviews';
 
 export const Springfield = (props) => {
   return (
@@ -12,7 +13,7 @@ export const Springfield = (props) => {
         or managed using a library like react-helmet-async for dynamic content in React applications.
         They are included here as per your original structure, but consider moving them for best practice.
       */}
-      <title>Hair Braiding Springfield MA | Mobile Braiding Salon Springfield | Majestic Braids MA</title>
+      <title>Hair Braiding in Springfield MA | Majestic Braids: Mobile Hair Braiding Springfield | Majestic Braids MA</title>
       <meta
         name="description"
         content="Majestic Braids MA: Your premier mobile hair braiding salon in Springfield, MA. Specializing in box braids, knotless braids, Senegalese twists, and more. Expert African hair braiding services brought directly to you in Springfield. Book your appointment today for top-rated braids in Springfield!"

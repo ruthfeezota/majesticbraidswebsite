@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { Contact } from '../components/contact';
 import Smallergallery from '../components/Smallergallery';
+import GoogleReviews from '../components/GoogleReviews';
 
 export const Pawcatuck = (props) => {
   return (
@@ -12,7 +13,7 @@ export const Pawcatuck = (props) => {
         or managed using a library like react-helmet-async for dynamic content in React applications.
         They are included here as per your original structure, but consider moving them for best practice.
       */}
-      <title>Hair Braiding Pawcatuck CT | Mobile Braiding Salon Pawcatuck | Majestic Braids CT</title>
+      <title>Hair Braiding in Pawcatuck CT | Majestic Braids: Mobile Hair Braiding Pawcatuck | Majestic Braids CT</title>
       <meta
         name="description"
         content="Majestic Braids CT: Your premier mobile hair braiding salon in Pawcatuck, CT. Specializing in box braids, knotless braids, Senegalese twists, and more. Expert African hair braiding services brought directly to you in Pawcatuck. Book your appointment today for top-rated braids in Pawcatuck!"
@@ -93,6 +94,7 @@ export const Pawcatuck = (props) => {
 
       {/* Smaller gallery section to showcase work */}
       <Smallergallery />
+
 
       {/* Contact section for inquiries and booking */}
       <Contact />
