@@ -38,7 +38,7 @@ const App = () => {
     <Route path="/hartford" element={<Hartford />} />
     <Route path="/springfield" element={<Springfield />} />
     <Route path="/worcester" element={<Worcester />} />
-    <Route path="/book" element={<Book />} />
+    <Route path="https://www.google.com/url?sa=t&source=web&rct=j&url=https://app.squareup.com/appointments/book/ssrk16cq70u9xm/L90W7ZYT50MKG/start&ved=2ahUKEwj2rsnIyL2OAxUXkmoFHdUYDxgQ6156BAgpEAE&opi=89978449&usg=AOvVaw0SNmNlZ3D9iqojKxZTF6H2" element={<Book />} />
 
     </Routes>
   );

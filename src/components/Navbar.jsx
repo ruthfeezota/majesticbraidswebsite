@@ -19,7 +19,7 @@ function Navbar() {
               <a href="#services" className="hover:text-[#73C2F4] font-semibold">Services</a>
               <a href="#testimonials" className="hover:text-[#73C2F4] font-semibold">Testimonials</a>
               <a href="#contact" className="hover:text-[#73C2F4] font-semibold">Contact Us</a> 
-              <a href="/book" className="hover:text-[#73C2F4] font-semibold">Book Service Now</a>
+              <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://app.squareup.com/appointments/book/ssrk16cq70u9xm/L90W7ZYT50MKG/start&ved=2ahUKEwj2rsnIyL2OAxUXkmoFHdUYDxgQ6156BAgpEAE&opi=89978449&usg=AOvVaw0SNmNlZ3D9iqojKxZTF6H2" className="hover:text-[#73C2F4] font-semibold">Book Service Now</a>
             </div>
           </div>
         </div>
