@@ -12,6 +12,7 @@ import Navbar from "../components/Navbar";
 import SaleBanner from "../components/SaleBanner";
 import FlodeskEmbed from "../components/FlodeskEmbed";
 import GoogleReviews from "../components/GoogleReviews";
+import EmailPopup from "../components/EmailPopUp"
 
 // import SaleModal from "../components/SaleModal";
 
@@ -54,7 +55,8 @@ function Home() {
          <Testimonials data={landingPageData.Testimonials} />
          <Contact data={landingPageData.Contact} />
          {/* <SaleModal/> */}
-         <FlodeskEmbed/>
+
+         <EmailPopup/>
      
 
        </div>
