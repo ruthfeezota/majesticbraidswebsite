@@ -76,6 +76,7 @@ export const Worcester = (props) => {
                 of a mobile hair salon across Worcester.
               </p>
             </div>
+                <link rel="canonical" href="https://www.majesticbraids.com/worcester" />
 
             {/* Call to action button within the header */}
             <div className="mt-10">

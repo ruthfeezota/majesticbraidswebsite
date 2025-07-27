@@ -91,6 +91,7 @@ export const Warwick = (props) => {
           </div>
         </div>
       </header>
+          <link rel="canonical" href="https://www.majesticbraids.com/warwick" />
 
       {/* Smaller gallery section to showcase work */}
       <Smallergallery />

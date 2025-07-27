@@ -76,6 +76,7 @@ export const Newport = (props) => {
                 of a mobile hair salon across Newport.
               </p>
             </div>
+                <link rel="canonical" href="https://www.majesticbraids.com/newport" />
 
             {/* Call to action button within the header */}
             <div className="mt-10">

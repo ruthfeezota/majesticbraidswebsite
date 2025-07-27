@@ -92,6 +92,7 @@ export const Pawtucket = (props) => {
           </div>
         </div>
       </header>
+          <link rel="canonical" href="https://www.majesticbraids.com/pawtucket" />
 
       {/* Smaller gallery section to showcase work */}
       <Smallergallery />

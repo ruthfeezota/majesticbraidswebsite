@@ -43,6 +43,7 @@ function Home() {
             />
 
     <div>
+        <link rel="canonical" href="https://www.majesticbraids.com/" />
          {/* <Navigation /> */}
          <SaleBanner/>
          <Navbar/>

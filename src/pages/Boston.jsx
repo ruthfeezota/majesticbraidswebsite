@@ -22,6 +22,7 @@ export const Boston = (props) => {
         name="keywords"
         content="hair braiding Boston MA, mobile hair braiding Boston MA, African hair braiding Boston MA, box braids Boston MA, knotless braids Boston MA, Senegalese twists Boston MA, feed in braids Boston MA, boho braids Boston MA, braiding salon Boston MA, braids near me Boston MA, kids braids Boston MA, black hair salons Boston MA, natural hair salon Boston MA, braiding services Boston MA, best braiding salons Boston MA, braiding shops Boston MA, cheap hair braiding Boston MA, lemonade braids Boston MA, hair braiding shops Boston MA, African braiding salons Boston MA"
       />
+          <link rel="canonical" href="https://www.majesticbraids.com/boston" />
 
       {/* Floating "Book Now" Button for easy access */}
       <a

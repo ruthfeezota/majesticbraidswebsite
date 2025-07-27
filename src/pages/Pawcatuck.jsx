@@ -91,6 +91,7 @@ export const Pawcatuck = (props) => {
           </div>
         </div>
       </header>
+          <link rel="canonical" href="https://www.majesticbraids.com/pawcatuck" />
 
       {/* Smaller gallery section to showcase work */}
       <Smallergallery />

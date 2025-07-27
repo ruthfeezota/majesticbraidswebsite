@@ -91,6 +91,7 @@ export const Providence = (props) => {
           </div>
         </div>
       </header>
+          <link rel="canonical" href="https://www.majesticbraids.com/providence" />
 
       {/* Smaller gallery section to showcase work */}
       <Smallergallery />
