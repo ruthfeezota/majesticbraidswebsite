@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { Contact } from '../components/contact';
 import Smallergallery from '../components/Smallergallery';
-import GoogleReviews from '../components/GoogleReviews';
+
 
 export const Worcester = (props) => {
   return (
@@ -95,8 +95,7 @@ export const Worcester = (props) => {
 
       {/* Smaller gallery section to showcase work */}
       <Smallergallery />
-
-      <GoogleReviews/>
+      
 
       {/* Contact section for inquiries and booking */}
       <Contact />

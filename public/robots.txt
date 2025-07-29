@@ -1,6 +1,6 @@
 # robots.txt for majesticbraids.com
 
 User-agent: *
-Allow: /
+Disallow:
 
-Sitemap: https://majesticbraids.com/sitemap.xml
+Sitemap: https://www.majesticbraids.com/sitemap.xml

@@ -10,8 +10,6 @@ import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
 import Navbar from "../components/Navbar";
 import SaleBanner from "../components/SaleBanner";
-import FlodeskEmbed from "../components/FlodeskEmbed";
-import GoogleReviews from "../components/GoogleReviews";
 import EmailPopup from "../components/EmailPopUp"
 
 // import SaleModal from "../components/SaleModal";

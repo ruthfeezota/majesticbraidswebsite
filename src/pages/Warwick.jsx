@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { Contact } from '../components/contact';
 import Smallergallery from '../components/Smallergallery';
-import ReviewSlider from '../components/ReviewSlider';
 
 export const Warwick = (props) => {
   return (

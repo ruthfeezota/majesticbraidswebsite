@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { Contact } from '../components/contact';
 import Smallergallery from '../components/Smallergallery';
-import GoogleReviews from '../components/GoogleReviews';
+
 
 export const Boston = (props) => {
   return (
