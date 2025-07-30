@@ -26,7 +26,7 @@ export const Boston = (props) => {
 
       {/* Floating "Book Now" Button for easy access */}
       <a
-        href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://app.squareup.com/appointments/book/ssrk16cq70u9xm/L90W7ZYT50MKG/start&ved=2ahUKEwj2rsnIyL2OAxUXkmoFHdUYDxgQ6156BAgpEAE&opi=89978449&usg=AOvVaw0SNmNlZ3D9iqojKxZTF6H2"
+        href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
         className="fixed bottom-6 right-6 bg-[#73C2F4] text-white hover:text-white hover:bg-sky-600 font-semibold py-4 px-8 rounded-full shadow-lg z-50 transition duration-300"
         target="_blank"
         rel="noopener noreferrer"
@@ -81,7 +81,7 @@ export const Boston = (props) => {
             {/* Call to action button within the header */}
             <div className="mt-10">
               <a
-                href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://app.squareup.com/appointments/book/ssrk16cq70u9xm/L90W7ZYT50MKG/start&ved=2ahUKEwj2rsnIyL2OAxUXkmoFHdUYDxgQ6156BAgpEAE&opi=89978449&usg=AOvVaw0SNmNlZ3D9iqojKxZTF6H2"
+                href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
                 className="inline-block bg-[#73C2F4] text-white hover:bg-sky-600 hover:text-white font-semibold py-5 px-10 rounded-full text-lg transition duration-300 uppercase"
                 target="_blank"
                 rel="noopener noreferrer"
