@@ -11,6 +11,7 @@ import SmoothScroll from "smooth-scroll";
 import Navbar from "../components/Navbar";
 import SaleBanner from "../components/SaleBanner";
 import EmailPopup from "../components/EmailPopUp"
+import { ServiceAreas } from "../components/SearviceAreas";
 
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -44,6 +45,7 @@ function Home() {
          <Features data={landingPageData.Features} />
          <Gallery data={landingPageData.Gallery} />
          <About data={landingPageData.About} />
+         <ServiceAreas/>
          <Services data={landingPageData.Services} />
          <Testimonials data={landingPageData.Testimonials} />
          <Contact data={landingPageData.Contact} />
