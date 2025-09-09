@@ -42,11 +42,12 @@ export const About: React.FC<{ data?: {
               aria-hidden="true"
               className="absolute -inset-4 -z-10 rounded-3xl bg-gradient-to-tr from-[#E8F6FF] to-transparent blur-2xl"
             />
-            <div className="rounded-3xl overflow-hidden shadow-2xl ring-1 ring-black/5">
+            <div className="rounded-3xl overflow-hidden shadow-2xl ring-1 ring-black/5 ">
               <img
                 src={ElizaImage}
                 alt="Liz, stylist at Majestic Braids, standing in studio"
-                className="w-full h-[420px] md:h-[520px] object-cover"
+                className="w-full min-h-[420px] md:max-h-[450px] object-cover object-[70%_30%]
+"
                 loading="lazy"
               />
             </div>
