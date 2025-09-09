@@ -56,17 +56,17 @@ export const About: React.FC<{ data?: {
           {/* Text */}
           <div className="order-1 lg:order-2">
 
-            <h2 className="mt-2 font-semibold text-gray-900 text-4xl md:text-6xl leading-tight">
-              Most{" "}
-              <span className="relative">
-                <span className="text-sky-500 italic">Vibrant</span>
-                <span
-                  aria-hidden="true"
-                  className="absolute left-0 right-0 -bottom-1 h-2 bg-sky-100 rounded-md"
-                />
-              </span>{" "}
-              Braids in Providence
-            </h2>
+<h2 className="mt-2 font-semibold text-gray-900 text-4xl md:text-6xl leading-tight text-center md:text-left">
+  Most{" "}
+  <span className="relative">
+    <span className="text-sky-500 italic">Vibrant</span>
+    <span
+      aria-hidden="true"
+      className="absolute left-0 right-0 -bottom-1 h-2 bg-sky-100 rounded-md"
+    />
+  </span>{" "}
+  Braids in Providence
+</h2>
 
             <p className="mt-6 text-gray-700 leading-relaxed font-sm md:font-lg">
               {paragraph}
