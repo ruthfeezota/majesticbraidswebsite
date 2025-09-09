@@ -12,10 +12,6 @@ import Navbar from "../components/Navbar";
 import SaleBanner from "../components/SaleBanner";
 import EmailPopup from "../components/EmailPopUp"
 
-// import SaleModal from "../components/SaleModal";
-
-
-
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -42,25 +38,17 @@ function Home() {
 
     <div>
         <link rel="canonical" href="https://www.majesticbraids.com/" />
-         {/* <Navigation /> */}
          <SaleBanner/>
          <Navbar/>
          <Header data={landingPageData.Header} />
          <Features data={landingPageData.Features} />
          <Gallery data={landingPageData.Gallery} />
          <About data={landingPageData.About} />
-         {/* <Prices data={landingPageData.Prices} /> */}
          <Services data={landingPageData.Services} />
          <Testimonials data={landingPageData.Testimonials} />
          <Contact data={landingPageData.Contact} />
-         {/* <SaleModal/> */}
-
          <EmailPopup/>
-     
-
        </div>
-   
-
        </main>
   )
 }
