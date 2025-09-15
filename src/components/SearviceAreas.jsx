@@ -34,12 +34,12 @@ export const ServiceAreas: React.FC<{
         {/* Title */}
         <h2
           id="service-areas-title"
-          className="text-3xl md:text-6xl font-semibold tracking-tight text-gray-900"
+          className="text-7xl font-semibold mt-6 mb-10 text-[#73C2F4] italic"
         >
           Service Areas
         </h2>
 
-        <p className="mt-4 text-xl md:text-2xl text-gray-700">
+        <p className="mt-4 text-2xl text-gray-600">
           We offer hair braiding in Rhode Island with both salon and mobile
           appointments:
         </p>
@@ -71,7 +71,7 @@ export const ServiceAreas: React.FC<{
         {/* CTA */}
         <div className="mt-8">
           <a
-            href={ctaHref}
+            href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
             className="inline-flex items-center rounded-full px-7 py-4 text-2xl font-semibold hover:bg-sky-600  bg-sky-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 hover:text-black text-[#2C1755]"
           >
             Book Mobile Braiding Now
