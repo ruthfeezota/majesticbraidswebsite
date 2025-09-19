@@ -11,8 +11,6 @@ import SmoothScroll from "smooth-scroll";
 import Navbar from "../components/Navbar";
 import SaleBanner from "../components/SaleBanner";
 import EmailPopup from "../components/EmailPopUp"
-import { ServiceAreas } from "../components/SearviceAreas";
-import { Shop } from "../components/Shop";
 
 
 export const scroll = new SmoothScroll('a[href*="#"]', {

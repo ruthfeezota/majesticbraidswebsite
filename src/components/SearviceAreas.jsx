@@ -23,7 +23,7 @@ export const ServiceAreas: React.FC<{
     "@context": "https://schema.org",
     "@type": "Service",
     name: "Mobile & In-Salon Hair Braiding",
-    areaServed: areas,
+    areaServed: areas,q
     serviceType: "Hair Braiding",
     provider: { "@type": "LocalBusiness", name: "Majestic Braids" },
   };
@@ -71,7 +71,7 @@ export const ServiceAreas: React.FC<{
         {/* CTA */}
         <div className="mt-8">
           <a
-            href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
+            href="https://majesticbraidsshop.square.site/s/appointments"
             className="inline-flex items-center rounded-full px-7 py-4 text-2xl font-semibold hover:bg-sky-600  bg-sky-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 hover:text-black text-[#2C1755]"
           >
             Book Mobile Braiding Now

@@ -16,7 +16,7 @@ export const Pawcatuck = (props) => {
         content="hair braiding Pawcatuck CT, mobile hair braiding Pawcatuck CT, African hair braiding Pawcatuck CT, box braids Pawcatuck CT, knotless braids Pawcatuck CT, Senegalese twists Pawcatuck CT, feed in braids Pawcatuck CT, boho braids Pawcatuck CT, braiding salon Pawcatuck CT, braids near me Pawcatuck CT, kids braids Pawcatuck CT, black hair salons Pawcatuck CT, natural hair salon Pawcatuck CT, braiding services Pawcatuck CT, best braiding salons Pawcatuck CT, braiding shops Pawcatuck CT, cheap hair braiding Pawcatuck CT, lemonade braids Pawcatuck CT, hair braiding shops Pawcatuck CT, African braiding salons Pawcatuck CT"
       />
       <a
-        href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
+        href="https://majesticbraidsshop.square.site/s/appointments"
         className="fixed bottom-6 right-6 bg-[#73C2F4] text-white hover:text-white hover:bg-sky-600 font-semibold py-4 px-8 rounded-full shadow-lg z-50 transition duration-300"
         target="_blank"
         rel="noopener noreferrer"
@@ -55,7 +55,7 @@ export const Pawcatuck = (props) => {
             </div>
             <div className="mt-10">
               <a
-                href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
+                href="https://majesticbraidsshop.square.site/s/appointments"
                 className="inline-block bg-[#73C2F4] text-white hover:bg-sky-600 hover:text-white font-semibold py-5 px-10 rounded-full text-lg transition duration-300 uppercase"
                 target="_blank"
                 rel="noopener noreferrer"

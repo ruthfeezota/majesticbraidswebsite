@@ -46,7 +46,7 @@ export const Header = ({ data, slide2, autoplayMs =6000 }) => {
     <>
       {/* Floating Book Now Button */}
       <a
-        href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
+        href="https://majesticbraidsshop.square.site/s/appointments"
         className="fixed bottom-6 right-6 bg-[#73C2F4] text-white hover:text-white hover:bg-sky-600 font-semibold py-4 px-8 rounded-full shadow-lg z-50 transition duration-300"
         target="_blank"
         rel="noopener noreferrer"
@@ -96,7 +96,7 @@ export const Header = ({ data, slide2, autoplayMs =6000 }) => {
 
                     <div className="mt-2">
                       <a
-                        href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
+                        href="https://majesticbraidsshop.square.site/s/appointments"
                         className="inline-block bg-[#73C2F4] text-black hover:bg-sky-600 hover:text-white font-semibold py-4 px-10 rounded-full text-xl transition duration-300 uppercase"
                         target="_blank"
                         rel="noopener noreferrer"

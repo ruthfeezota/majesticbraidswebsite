@@ -27,7 +27,7 @@ function Navbar() {
   <a href="#services" className="hover:text-[#73C2F4]">Services</a>
   <a href="#testimonials" className="hover:text-[#73C2F4]">Testimonials</a>
   <a href="#contact" className="hover:text-[#73C2F4]">Contact Us</a>
-  <a href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services" className="hover:text-[#73C2F4]">
+  <a href="https://majesticbraidsshop.square.site/s/appointments" className="hover:text-[#73C2F4]">
     Book Service Now
   </a>
 </div>
@@ -62,7 +62,7 @@ function Navbar() {
             <a href="#testimonials" className="block hover:text-[#73C2F4]">Testimonials</a>
             <a href="#contact" className="block hover:text-[#73C2F4]">Contact Us</a>
             <a
-              href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
+              href="https://majesticbraidsshop.square.site/s/appointments"
               className="block hover:text-[#73C2F4]"
             >
               Book Service Now
