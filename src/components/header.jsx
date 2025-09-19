@@ -13,7 +13,7 @@ import React, { useEffect, useRef, useState } from "react";
 //   autoplayMs={6000}
 // />
 
-export const Header = ({ data, slide2, autoplayMs =6000 }) => {
+export const Header = ({ data, slide2, autoplayMs = 7000 }) => {
   const slides = ["video", "image"]; // slide 0 = original video, slide 1 = new image
   const [index, setIndex] = useState(0);
   const timerRef = useRef(null);
@@ -72,16 +72,17 @@ export const Header = ({ data, slide2, autoplayMs =6000 }) => {
             {/* Slide 1: Original VIDEO hero */}
             <div className="relative w-full shrink-0" style={{ width: `${100 / slides.length}%` }}>
               <div className="relative h-[80vh] min-h-[520px]">
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  className="absolute inset-0 w-full h-full object-cover z-0"
-                  aria-label="Majestic Braids video background"
-                >
-                  <source src="../img/LizStyle.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+             <video
+  autoPlay
+  muted
+  playsInline
+  loop
+  className="absolute inset-0 w-full h-full object-cover z-0"
+  aria-label="Majestic Braids video background"
+>
+  <source src="../img/LizStyle.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
                 <div className="absolute inset-0 bg-black/30 z-10" />
 
                 <div className="relative z-20 h-full flex items-center justify-center px-6 md:px-10 lg:px-20 xl:px-32 text-center text-white">

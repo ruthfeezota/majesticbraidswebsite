@@ -3,6 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-
+video::-webkit-media-controls {
+  display: none !important;
+  opacity: 0;
+  pointer-events: none;
 }
