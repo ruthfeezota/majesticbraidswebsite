@@ -17,7 +17,7 @@ export const Worcester = (props) => {
         content="hair braiding Worcester MA, mobile hair braiding Worcester MA, African hair braiding Worcester MA, box braids Worcester MA, knotless braids Worcester MA, Senegalese twists Worcester MA, feed in braids Worcester MA, boho braids Worcester MA, braiding salon Worcester MA, braids near me Worcester MA, kids braids Worcester MA, black hair salons Worcester MA, natural hair salon Worcester MA, braiding services Worcester MA, best braiding salons Worcester MA, braiding shops Worcester MA, cheap hair braiding Worcester MA, lemonade braids Worcester MA, hair braiding shops Worcester MA, African braiding salons Worcester MA"
       />
       <a
-        href="https://majesticbraidsshop.square.site/s/appointments"
+        href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
         className="fixed bottom-6 right-6 bg-[#73C2F4] text-white hover:text-white hover:bg-sky-600 font-semibold py-4 px-8 rounded-full shadow-lg z-50 transition duration-300"
         target="_blank"
         rel="noopener noreferrer"
@@ -59,7 +59,7 @@ export const Worcester = (props) => {
                 <link rel="canonical" href="https://www.majesticbraids.com/worcester" />
             <div className="mt-10">
               <a
-                href="https://majesticbraidsshop.square.site/s/appointments"
+                href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
                 className="inline-block bg-[#73C2F4] text-white hover:bg-sky-600 hover:text-white font-semibold py-5 px-10 rounded-full text-lg transition duration-300 uppercase"
                 target="_blank"
                 rel="noopener noreferrer"

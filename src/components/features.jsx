@@ -67,25 +67,25 @@ export const Features = (props) => {
 //     {
 //       "img": "img/portfolio/images.jpeg",
 //       "title": "Hair Braiding",
-//       "link": "https://majesticbraidsshop.square.site/s/appointments",
+//       "link": "https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services",
 //       "alt": "Hair Braiding: We offer a wide range of hair braiding services, ensuring you find the perfect style."
 //     },    
 //     {
 //       "img": "img/portfolio/twista.jpg",
 //       "title": "Twists",
-//       "link": "https://majesticbraidsshop.square.site/s/appointments",
+//       "link": "https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services",
 //       "alt": "Twists: Including Senegalese twist hair for a stylish and protective look."
 //     },
 //     {
 //      "img": "img/services/FauxLocs.jpeg",
 //       "title": "Faux Locs",
-//       "link": "https://majesticbraidsshop.square.site/s/appointments",
+//       "link": "https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services",
 //       "alt": "Faux Locs: Get the look of locs without the commitment."
 //     },
 //     {
 //      "img": "img/portfolio/sewIns.png",
 //       "title": "Weaves/Sew-Ins",
-//       "link": "https://majesticbraidsshop.square.site/s/appointments",
+//       "link": "https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services",
 //       "alt": "Weaves/Sew-Ins: Add length and volume with our professional weave services."
 //     }
 //   ]

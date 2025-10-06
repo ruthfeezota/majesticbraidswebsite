@@ -17,7 +17,7 @@ export const Pawtucket = (props) => {
         content="hair braiding Pawtucket RI, mobile hair braiding Pawtucket RI, African hair braiding Pawtucket RI, box braids Pawtucket RI, knotless braids Pawtucket RI, Senegalese twists Pawtucket RI, feed in braids Pawtucket RI, boho braids Pawtucket RI, braiding salon Pawtucket RI, braids near me Pawtucket RI, kids braids Pawtucket RI, black hair salons Pawtucket RI, natural hair salon Pawtucket RI, braiding services Pawtucket RI, best braiding salons Pawtucket RI, braiding shops Pawtucket RI, cheap hair braiding Pawtucket RI, lemonade braids Pawtucket RI, hair braiding shops Pawtucket RI, African braiding salons Pawtucket RI"
       />
       <a
-        href="https://majesticbraidsshop.square.site/s/appointments"
+        href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
         className="fixed bottom-6 right-6 bg-[#73C2F4] text-white hover:text-white hover:bg-sky-600 font-semibold py-4 px-8 rounded-full shadow-lg z-50 transition duration-300"
         target="_blank"
         rel="noopener noreferrer"
@@ -62,7 +62,7 @@ export const Pawtucket = (props) => {
             </div>
             <div className="mt-10">
               <a
-                href="https://majesticbraidsshop.square.site/s/appointments"
+                href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
                 className="inline-block bg-[#73C2F4] text-white hover:bg-sky-600 hover:text-white font-semibold py-5 px-10 rounded-full text-lg transition duration-300 uppercase"
                 target="_blank"
                 rel="noopener noreferrer"

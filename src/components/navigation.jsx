@@ -31,7 +31,7 @@ export const Navigation = () => {
               Contact Us
             </a>
             <a
-              href="https://majesticbraidsshop.square.site/s/appointments"
+              href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
               className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-md"
               target="_blank"
               rel="noopener noreferrer"
@@ -106,7 +106,7 @@ export const Navigation = () => {
             Contact Us
           </a>
           <a
-            href="https://majesticbraidsshop.square.site/s/appointments"
+            href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
             className="block text-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-md"
             target="_blank"
             rel="noopener noreferrer"

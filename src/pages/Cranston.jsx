@@ -16,7 +16,7 @@ export const Cranston = (props) => {
         content="hair braiding Cranston RI, mobile hair braiding Cranston RI, African hair braiding Cranston RI, box braids Cranston RI, knotless braids Cranston RI, Senegalese twists Cranston RI, feed in braids Cranston RI, boho braids Cranston RI, braiding salon Cranston RI, braids near me Cranston RI, kids braids Cranston RI, black hair salons Cranston RI, natural hair salon Cranston RI, braiding services Cranston RI, best braiding salons Cranston RI, braiding shops Cranston RI, cheap hair braiding Cranston RI, lemonade braids Cranston RI, hair braiding shops Cranston RI, African braiding salons Cranston RI"
       />
       <a
-        href="https://majesticbraidsshop.square.site/s/appointments"
+        href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
         className="fixed bottom-6 right-6 bg-[#73C2F4] text-white hover:text-white hover:bg-sky-600 font-semibold py-4 px-8 rounded-full shadow-lg z-50 transition duration-300"
         target="_blank"
         rel="noopener noreferrer"
@@ -56,7 +56,7 @@ export const Cranston = (props) => {
             </div>
             <div className="mt-10">
               <a
-                href="https://majesticbraidsshop.square.site/s/appointments"
+                href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services"
                 className="inline-block bg-[#73C2F4] text-white hover:bg-sky-600 hover:text-white font-semibold py-5 px-10 rounded-full text-lg transition duration-300 uppercase"
                 target="_blank"
                 rel="noopener noreferrer"
