@@ -12,21 +12,19 @@ export const Features = (props) => {
 
          <div className="max-w-5xl mx-auto mb-22 mt-10">
           <h2 className="text-7xl font-semibold text-gray-800">
-             <span className="text-[#73C2F4] italic">Shop</span>{" "} Premium Braiding Hair
+           Our   <span className="text-[#73C2F4] italic"> Most Popular</span>{" "} Services
           </h2>
-           <p className="text-gray-600 text-2xl mt-6">Pre-order your hair, and it’ll be ready at your appointment—available for both at-home and in-salon services.</p>
+           <p className="text-gray-600 text-2xl mt-6">Professional Braiding That Lasts and Turns Heads</p>
         </div> 
 
-
-
-<div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-20">
+<div className="flex flex-col md:flex-row justify-center items-center gap-10 mt-20">
   {props.data
     ? props.data.map((d, i) => (
         <div key={`${d.title}-${i}`} className="space-y-3 text-center">
           <img
             src={d.img}
             alt={d.title}
-            className="w-[400px] h-[400px] mx-auto object-cover"
+            className="w-[350px] h-[350px] mx-auto object-cover rounded-full shadow-lg"
           />
           <div>
             <h3 className="text-2xl mt-6 font-semibold text-gray-700">
@@ -44,7 +42,7 @@ export const Features = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Buy Now
+            Book Now
           </a>
         </div>
       ))

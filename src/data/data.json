@@ -170,27 +170,31 @@
     "instagram": "https://www.instagram.com/mobile_majesticbraids?igsh=a3dvdzU0ZXZxdHdo",
     "pinterest": "https://www.pinterest.com/majesticbraidsri/"
   },
-  "Features": [
+"Features": [
     {
-      "img": "img/portfolio/Boho Braiding Bundle – 2 Human Hair Bundles + 2 Packs Pre-Stretched Braiding Hair (Color 1B).png",
-      "title": "Boho Braiding Bundle – 2 Human Hair Bundles + 2 Packs Pre-Stretched Braiding Hair (Color 1B)",
-      "link": "https://majesticbraidsshop.square.site/product/boho-braiding-bundle-2-human-hair-bundles-2-packs-pre-stretched-braiding-hair-color-1b-/3ZLBO4J47BPM3VMKN6PZENF6?cs=true&cst=custom",
-      "alt": "Hair Braiding: We offer a wide range of hair braiding services, ensuring you find the perfect style.",
-      "price": "$39.99"
+      "img": "img/Features/KidsBraids.jpg",
+      "title": "Kids Hair Braiding",
+      "link": "https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services/JKF6MA3DWPMKW22USJ6AXZC4",
+      "alt": "Hair Braiding: We offer a wide range of hair braiding services, ensuring you find the perfect style."
     },    
     {
-      "img": "img/portfolio/Human Braiding Hair for Boho Braids Deep Wave Bundles Human Hair 50g 2 Bundles:Pack 14 Inchs (Color 1B).jpg",
-      "title": "Human Braiding Hair for Boho Braids Deep Wave Bundles Human Hair 50g 2 Bundles/Pack 14 Inchs (Color 1B)",
-      "link": "https://majesticbraidsshop.square.site/product/human-braiding-hair-for-boho-braids-deep-wave-bundles-human-hair-50g-2-bundles-pack-14-inch/FXB5BR6PQLSPL4L4E43WF6RC?cs=true&cst=custom",
-      "alt": "Twists: Including Senegalese twist hair for a stylish and protective look.",
-      "price": "$19.99"
+      "img": "img/Features/BohoBraids.jpg",
+      "title": "Boho Braids & Twists",
+      "link": "https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services/ZSAZTQQSTZGMZYYYKD6KIL2L",
+      "alt": "Twists: Including Senegalese twist hair for a stylish and protective look."
     },
     {
-     "img": "img/portfolio/Sensationnel.jpg",
-      "title": "Sensationnel X-Pression 3X Pre-Stretched Braiding Hair (1B Off Black)",
-      "link": "https://majesticbraidsshop.square.site/product/sensationnel-x-pression-3x-pre-stretched-braiding-hair-58-1b-off-black-/XPP574YSBCVPNMHHJ34L3UPS?cs=true&cst=custom",
-      "alt": "Faux Locs: Get the look of locs without the commitment.",
-      "price": "$9.99"
+     "img": "img/Features/MensBraids2.jpeg",
+      "title": "Men Braids",
+      "link": "https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services/UIL4TVPPM7MWVK5EJIM2QLMI",
+      "alt": "Faux Locs: Get the look of locs without the commitment."
+    },
+    {
+     "img": "img/Features/FrenchBraids.jpg.webp",
+      "title": "Layered French Curls",
+      "link": "https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services/JT7C2NVR5ZVI2GHKRJDXX6NE",
+      "alt": "Weaves/Sew-Ins: Add length and volume with our professional weave services."
     }
   ]
 }
+

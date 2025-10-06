@@ -13,6 +13,7 @@ import Newport from "./pages/Newport";
 import Hartford from "./pages/Hartford";
 import Springfield from "./pages/Springfield";
 import Worcester from "./pages/Worcester";
+import BraidBarPage from "./pages/BraidBar";
 
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -37,6 +38,7 @@ const App = () => {
     <Route path="/hartford" element={<Hartford />} />
     <Route path="/springfield" element={<Springfield />} />
     <Route path="/worcester" element={<Worcester />} />
+    <Route path="/kidsbraidbar" element={<BraidBarPage />} />
 
     </Routes>
   );

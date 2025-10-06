@@ -62,7 +62,7 @@ export const About: React.FC<{ data?: {
     <span className="text-sky-500 italic">Vibrant</span>
     <span
       aria-hidden="true"
-      className="absolute left-0 right-0 -bottom-1 h-2 bg-sky-100 rounded-md"
+      className="absolute left-0 right-0  bg-sky-100 rounded-md"
     />
   </span>{" "}
   Braids in Providence
@@ -84,7 +84,7 @@ export const About: React.FC<{ data?: {
                 {listLeft.map((item, i) => (
                   <li key={`why-${i}`} className="flex gap-3">
                     <span className="mt-1 shrink-0 p-1.5">
-                      <Check className="h-3.5 w-3.5 text-sky-600" />
+                      ✨
                     </span>
                     <span className="text-gray-800">{item}</span>
                   </li>
@@ -95,7 +95,7 @@ export const About: React.FC<{ data?: {
                 {listRight.map((item, i) => (
                   <li key={`why2-${i}`} className="flex gap-3">
                     <span className="mt-1 shrink-0 rounded-full p-1.5">
-                      <Check className="h-3.5 w-3.5 text-sky-600" />
+                       ✨
                     </span>
                     <span className="text-gray-800">{item}</span>
                   </li>

@@ -24,9 +24,7 @@ export const Worcester = (props) => {
       >
         Book Now
       </a>
-
       <Navbar />
-
       <header id="header">
         <div className="relative">
           <video
