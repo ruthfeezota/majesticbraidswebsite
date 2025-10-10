@@ -9,7 +9,7 @@ function SaleBanner() {
             href="https://book.squareup.com/appointments/ssrk16cq70u9xm/location/L90W7ZYT50MKG/services/RE554QWF3SI22N2IH6F4FJWQ"
             className="font-extrabold hover:underline"
           >
-            🌟 Rumi K-Pop Demon Hunter Huntrix Purple Kis Braids — Only $35! Limited Time. Book Your Spot Now!
+            🌟 Rumi K-Pop Demon Hunter Huntrix Purple Kis Braids — Only $35! Limited Time. Book Your Child's Spot Now!
           </a>
         </p>
       </div>

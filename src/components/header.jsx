@@ -115,7 +115,7 @@ export const Header = ({ data, slide2, autoplayMs = 7000 }) => {
               <div className="relative h-[80vh] min-h-[520px]">
                 {/* Background image */}
                 <img
-                  src={slide2?.image || "/img/portfolio/bannerboho.png"}
+                  src={slide2?.image || "/img/portfolio/banner2test3.png"}
                   alt="Featured styles"
                   className="absolute inset-0 w-full h-full object-cover z-0"
                 />
@@ -124,10 +124,10 @@ export const Header = ({ data, slide2, autoplayMs = 7000 }) => {
                 <div className="relative z-20 h-full flex items-center justify-center px-6 md:px-10 lg:px-20 xl:px-32 text-center text-white">
                   <div className="max-w-4xl">
                     <h2 className="text-6xl md:text-8xl font-bold mb-4 text-white italic">
-                      {slide2?.title || "Boho Fever: Pre‑order hair for Boho Braids"}
+                      {slide2?.title || "Kids Party Braid Bar - Kids Love It!"}
                     </h2>
                     <p className="text-xl md:text-4xl mb-8 font-medium">
-                      {slide2?.text || "Order in advance and we’ll have it ready at your appointment."}
+                      {slide2?.text || "Beautiful, long-lasting braids — brought to your door. Pop-ups, parties, and in-home sessions by professional braid artists."}
                     </p>
                     <div>
                       <a
@@ -136,7 +136,7 @@ export const Header = ({ data, slide2, autoplayMs = 7000 }) => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        {slide2?.ctaLabel || "Shop Now"}
+                        {slide2?.ctaLabel || "Book Party Braid Bar"}
                       </a>
                     </div>
                   </div>
